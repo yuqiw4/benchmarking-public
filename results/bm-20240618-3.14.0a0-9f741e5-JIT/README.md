@@ -10,7 +10,7 @@
 
 ## linux aarch64 (arminc)
 
-- [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9589128588)
+- [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9605230925)
 - cpu model: missing
 - platform: Linux-5.15.0-101-generic-aarch64-with-glibc2.35
 - [raw results](bm-20240618-arminc-aarch64-python-9f741e55c16376412c14-3.14.0a0-9f741e5.json)
@@ -48,9 +48,9 @@
 
 ## linux x86_64 (linux)
 
-- [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9589128588)
+- [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9605230925)
 - cpu model: Intel(R) Xeon(R) W-2255 CPU @ 3.70GHz
-- platform: Linux-5.4.0-164-generic-x86_64-with-glibc2.31
+- platform: Linux-5.4.0-186-generic-x86_64-with-glibc2.31
 - [raw results](bm-20240618-linux-x86_64-python-9f741e55c16376412c14-3.14.0a0-9f741e5.json)
 
 ### vs. 3.10.4
@@ -81,7 +81,7 @@
 
 ## linux x86_64 (pythonperf2)
 
-- [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9589128588)
+- [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9605230925)
 - cpu model: 12th Gen Intel(R) Core(TM) i9-12900
 - platform: Linux-5.15.0-105-generic-x86_64-with-glibc2.35
 - [raw results](bm-20240618-pythonperf2-x86_64-python-9f741e55c16376412c14-3.14.0a0-9f741e5.json)
@@ -114,7 +114,7 @@
 
 ## windows amd64 (pythonperf1)
 
-- [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9589128588)
+- [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9605230925)
 - cpu model: missing
 - platform: Windows-11-10.0.22631-SP0
 - [raw results](bm-20240618-pythonperf1-amd64-python-9f741e55c16376412c14-3.14.0a0-9f741e5.json)
@@ -147,7 +147,7 @@
 
 ## windows x86 (pythonperf1_win32)
 
-- [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9589128588)
+- [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9605230925)
 - cpu model: missing
 - platform: Windows-11-10.0.22631-SP0
 - [raw results](bm-20240618-pythonperf1_win32-x86-python-9f741e55c16376412c14-3.14.0a0-9f741e5.json)
@@ -180,7 +180,7 @@
 
 ## darwin arm64 (darwin)
 
-- [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9589128588)
+- [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9605230925)
 - cpu model: missing
 - platform: macOS-14.5-arm64-arm-64bit-Mach-O
 - [raw results](bm-20240618-darwin-arm64-python-9f741e55c16376412c14-3.14.0a0-9f741e5.json)
