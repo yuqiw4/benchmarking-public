@@ -44,11 +44,10 @@
 ## linux x86_64 (azure)
 
 - [pystats raw](bm-20240622-azure-x86_64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-pystats.json)
-- [pystats table](bm-20240622-azure-x86_64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-pystats.md)
 
 ## linux x86_64 (linux)
 
-- [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9629150542)
+- [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9646892753)
 - cpu model: Intel(R) Xeon(R) W-2255 CPU @ 3.70GHz
 - platform: Linux-5.4.0-186-generic-x86_64-with-glibc2.31
 - [raw results](bm-20240622-linux-x86_64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa.json)
@@ -78,6 +77,14 @@
 - missing benchmarks: aiohttp, chameleon, djangocms, flaskblogging, gunicorn, mypy2
 - [📄table](bm-20240622-linux-x86_64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-3.13.0b2.md)
 - [📈time plot](bm-20240622-linux-x86_64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-3.13.0b2.svg)
+
+### vs. base
+
+- Geometric mean: 1.01x faster (HPT: reliability of 99.97%, 1.00x faster at 99th %ile)
+- Memory usage: 0.98x
+- [🧠memory plot](bm-20240622-linux-x86_64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-base-mem.svg)
+- [📄table](bm-20240622-linux-x86_64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-base.md)
+- [📈time plot](bm-20240622-linux-x86_64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-base.svg)
 
 ## linux x86_64 (pythonperf2)
 

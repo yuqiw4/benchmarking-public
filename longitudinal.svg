@@ -1408,7 +1408,7 @@
 <use x="222.65625" xlink:href="#k"/>
 </g>
 <g stroke="#1f77b4" stroke-opacity=".9">
-<path d="m71.4 985h15.7 17.6 97.1 50 12.3 33.6 51.5 2.92 0.0472 73.8 17 8.96 158 7.27 1.77l26.8-7.92 40.2-7.92" clip-path="url(#s)" fill="none" stroke-linecap="square" stroke-width="1.5"/>
+<path d="m71.4 985h15.7 17.6 97.1 50 12.3 33.6 51.5 2.92 0.0472 73.8 17 8.96 158 7.27 1.77l26.8-7.92 40.2-7.92-1.48 7.92" clip-path="url(#s)" fill="none" stroke-linecap="square" stroke-width="1.5"/>
 <g clip-path="url(#s)" fill="#1f77b4" fill-opacity=".9">
 <use x="71.388926" y="985.200294" xlink:href="#a"/>
 <use x="87.084662" y="985.200294" xlink:href="#a"/>
@@ -1428,6 +1428,7 @@
 <use x="619.17174" y="985.200294" xlink:href="#a"/>
 <use x="646.009852" y="977.277793" xlink:href="#a"/>
 <use x="686.256387" y="969.355291" xlink:href="#a"/>
+<use x="684.780597" y="977.277793" xlink:href="#a"/>
 </g>
 </g>
 <g stroke="#1f77b4" stroke-opacity=".9">
