@@ -1,8 +1,8 @@
 # Memory measurements
 
-![Longitudinal memory change](/memory_long.png)
+![Longitudinal memory change](/memory_long.svg)
 
-![Effect of different configurations on memory usage](/memory_configs.png)
+![Effect of different configurations on memory usage](/memory_configs.svg)
 
 (Windows builds do not collect memory usage information).
 
