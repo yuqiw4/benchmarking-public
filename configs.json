@@ -192,5 +192,6 @@
   "bm-20240622-3.14.0a0-4717aaa/bm-20240622-arminc-aarch64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa.json,bm-20240622-3.14.0a0-4717aaa-JIT/bm-20240622-arminc-aarch64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa.json": 0.97,
   "bm-20240622-3.14.0a0-4717aaa/bm-20240622-darwin-arm64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa.json,bm-20240622-3.14.0a0-4717aaa-JIT/bm-20240622-darwin-arm64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa.json": 1.0,
   "bm-20240622-3.14.0a0-4717aaa/bm-20240622-pythonperf1-amd64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa.json,bm-20240622-3.14.0a0-4717aaa-JIT/bm-20240622-pythonperf1-amd64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa.json": 1.0,
-  "bm-20240622-3.14.0a0-4717aaa/bm-20240622-pythonperf1_win32-x86-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa.json,bm-20240622-3.14.0a0-4717aaa-JIT/bm-20240622-pythonperf1_win32-x86-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa.json": 1.0
+  "bm-20240622-3.14.0a0-4717aaa/bm-20240622-pythonperf1_win32-x86-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa.json,bm-20240622-3.14.0a0-4717aaa-JIT/bm-20240622-pythonperf1_win32-x86-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa.json": 1.0,
+  "bm-20240627-3.14.0a0-22b0de2/bm-20240627-linux-x86_64-python-22b0de2755ee2d0e2dd2-3.14.0a0-22b0de2.json,bm-20240627-3.14.0a0-22b0de2-NOGIL/bm-20240627-linux-x86_64-python-22b0de2755ee2d0e2dd2-3.14.0a0-22b0de2.json": 0.56
 }
