@@ -18,7 +18,7 @@
 ### vs. 3.10.4
 
 - Geometric mean: 1.24x faster (HPT: reliability of 100.00%, 1.16x faster at 99th %ile)
-- Memory usage: 1.19x
+- Memory usage: 1.18x
 - missing benchmarks: flaskblogging, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
 - [📄table](bm-20240403-pythonperf2-x86_64-mdboom-all_above_300-3.13.0a5%2B-4759358-vs-3.10.4.md)
@@ -26,8 +26,8 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.04x slower (HPT: reliability of 99.99%, 1.01x slower at 99th %ile)
-- Memory usage: 0.98x
+- Geometric mean: 1.04x slower (HPT: reliability of 99.97%, 1.01x slower at 99th %ile)
+- Memory usage: 0.99x
 - missing benchmarks: sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: genshi_text, genshi_xml, html5lib, pylint, thrift
 - [📄table](bm-20240403-pythonperf2-x86_64-mdboom-all_above_300-3.13.0a5%2B-4759358-vs-3.12.0.md)
@@ -43,7 +43,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.00x slower (HPT: reliability of 97.02%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.00x slower (HPT: reliability of 98.26%, 1.00x slower at 99th %ile)
 - Memory usage: 1.00x
 - missing benchmarks: 🔴 unpack_sequence
 - [🧠memory plot](bm-20240403-pythonperf2-x86_64-mdboom-all_above_300-3.13.0a5%2B-4759358-vs-base-mem.svg)

@@ -43,7 +43,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.00x slower (HPT: reliability of 95.09%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.00x slower (HPT: reliability of 96.80%, 1.00x slower at 99th %ile)
 - Memory usage: unknown
 - [📄table](bm-20240416-pythonperf1-amd64-gvanrossum-disable_tier2-3.13.0a6%2B-ced0ca9-vs-base.md)
 - [📈time plot](bm-20240416-pythonperf1-amd64-gvanrossum-disable_tier2-3.13.0a6%2B-ced0ca9-vs-base.svg)

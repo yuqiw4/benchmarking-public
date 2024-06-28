@@ -18,7 +18,7 @@
 ### vs. 3.10.4
 
 - Geometric mean: 1.32x faster (HPT: reliability of 100.00%, 1.20x faster at 99th %ile)
-- Memory usage: 1.19x
+- Memory usage: 1.18x
 - missing benchmarks: django_template, djangocms, flaskblogging, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
 - [📄table](bm-20240402-linux-x86_64-python-027fa2eccf39ddccdf7b-3.13.0a5%2B-027fa2e-vs-3.10.4.md)
@@ -26,7 +26,7 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.02x faster (HPT: reliability of 92.16%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.02x faster (HPT: reliability of 92.76%, 1.00x faster at 99th %ile)
 - Memory usage: 1.04x
 - missing benchmarks: django_template, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: genshi_text, genshi_xml, html5lib, pylint, thrift
@@ -35,7 +35,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.00x slower (HPT: reliability of 98.74%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.00x slower (HPT: reliability of 98.68%, 1.00x slower at 99th %ile)
 - Memory usage: 1.06x
 - missing benchmarks: bpe_tokeniser, django_template, djangocms, flaskblogging
 - [📄table](bm-20240402-linux-x86_64-python-027fa2eccf39ddccdf7b-3.13.0a5%2B-027fa2e-vs-3.13.0b2.md)
@@ -50,8 +50,8 @@
 
 ### vs. 3.10.4
 
-- Geometric mean: 1.26x faster (HPT: reliability of 100.00%, 1.16x faster at 99th %ile)
-- Memory usage: 1.20x
+- Geometric mean: 1.26x faster (HPT: reliability of 100.00%, 1.17x faster at 99th %ile)
+- Memory usage: 1.19x
 - missing benchmarks: django_template, flaskblogging, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
 - [📄table](bm-20240402-pythonperf2-x86_64-python-027fa2eccf39ddccdf7b-3.13.0a5%2B-027fa2e-vs-3.10.4.md)
@@ -59,8 +59,8 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.03x slower (HPT: reliability of 99.79%, 1.00x slower at 99th %ile)
-- Memory usage: 0.99x
+- Geometric mean: 1.03x slower (HPT: reliability of 99.50%, 1.00x slower at 99th %ile)
+- Memory usage: 1.00x
 - missing benchmarks: django_template, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: genshi_text, genshi_xml, html5lib, pylint, thrift
 - [📄table](bm-20240402-pythonperf2-x86_64-python-027fa2eccf39ddccdf7b-3.13.0a5%2B-027fa2e-vs-3.12.0.md)

@@ -26,8 +26,8 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.01x faster (HPT: reliability of 90.11%, 1.00x faster at 99th %ile)
-- Memory usage: 0.90x
+- Geometric mean: 1.01x faster (HPT: reliability of 93.88%, 1.00x faster at 99th %ile)
+- Memory usage: 0.91x
 - missing benchmarks: mypy2, sqlalchemy_declarative, sqlalchemy_imperative
 - new benchmarks: flaskblogging
 - [📄table](bm-20240503-arminc-aarch64-python-13245027526bf1b21fae-3.13.0a6%2B-1324502-vs-3.12.0.md)
@@ -35,7 +35,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.00x faster (HPT: reliability of 78.25%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.00x faster (HPT: reliability of 72.14%, 1.00x slower at 99th %ile)
 - Memory usage: 0.98x
 - missing benchmarks: bpe_tokeniser, mypy2
 - [📄table](bm-20240503-arminc-aarch64-python-13245027526bf1b21fae-3.13.0a6%2B-1324502-vs-3.13.0b2.md)

@@ -17,7 +17,7 @@
 ### vs. 3.10.4
 
 - Geometric mean: 1.28x faster (HPT: reliability of 100.00%, 1.22x faster at 99th %ile)
-- Memory usage: 1.25x
+- Memory usage: 1.24x
 - missing benchmarks: flaskblogging
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
 - [📄table](bm-20231002-arminc-aarch64-python-0fb18b02c8ad56299d6a-3.12.0-0fb18b0-vs-3.10.4.md)
@@ -25,8 +25,8 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.01x slower (HPT: reliability of 83.98%, 1.00x slower at 99th %ile)
-- Memory usage: 1.10x
+- Geometric mean: 1.01x slower (HPT: reliability of 88.51%, 1.00x slower at 99th %ile)
+- Memory usage: 1.09x
 - missing benchmarks: bpe_tokeniser, flaskblogging
 - new benchmarks: sqlalchemy_declarative, sqlalchemy_imperative
 - [📄table](bm-20231002-arminc-aarch64-python-0fb18b02c8ad56299d6a-3.12.0-0fb18b0-vs-3.13.0b2.md)
@@ -42,7 +42,7 @@
 ### vs. 3.10.4
 
 - Geometric mean: 1.30x faster (HPT: reliability of 100.00%, 1.23x faster at 99th %ile)
-- Memory usage: 1.15x
+- Memory usage: 1.14x
 - missing benchmarks: djangocms, flaskblogging, genshi_text, genshi_xml, html5lib, pylint, thrift
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
 - [📄table](bm-20231002-linux-x86_64-python-v3.12.0-3.12.0-0fb18b0-vs-3.10.4.md)
@@ -50,7 +50,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.03x slower (HPT: reliability of 98.90%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.03x slower (HPT: reliability of 98.91%, 1.00x slower at 99th %ile)
 - Memory usage: 1.03x
 - missing benchmarks: bpe_tokeniser, djangocms, flaskblogging, genshi_text, genshi_xml, html5lib, pylint, thrift
 - new benchmarks: sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
@@ -66,8 +66,8 @@
 
 ### vs. 3.10.4
 
-- Geometric mean: 1.30x faster (HPT: reliability of 100.00%, 1.22x faster at 99th %ile)
-- Memory usage: 1.23x
+- Geometric mean: 1.30x faster (HPT: reliability of 100.00%, 1.23x faster at 99th %ile)
+- Memory usage: 1.22x
 - missing benchmarks: flaskblogging, genshi_text, genshi_xml, html5lib, pylint, thrift
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
 - [📄table](bm-20231002-pythonperf2-x86_64-python-v3.12.0-3.12.0-0fb18b0-vs-3.10.4.md)
@@ -75,8 +75,8 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.00x faster (HPT: reliability of 70.35%, 1.00x faster at 99th %ile)
-- Memory usage: 1.09x
+- Geometric mean: 1.00x faster (HPT: reliability of 62.80%, 1.00x faster at 99th %ile)
+- Memory usage: 1.08x
 - missing benchmarks: bpe_tokeniser, flaskblogging, genshi_text, genshi_xml, html5lib, pylint, thrift
 - new benchmarks: sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - [📄table](bm-20231002-pythonperf2-x86_64-python-v3.12.0-3.12.0-0fb18b0-vs-3.13.0b2.md)
@@ -91,7 +91,7 @@
 
 ### vs. 3.10.4
 
-- Geometric mean: 1.19x faster (HPT: reliability of 100.00%, 1.11x faster at 99th %ile)
+- Geometric mean: 1.19x faster (HPT: reliability of 100.00%, 1.12x faster at 99th %ile)
 - Memory usage: unknown
 - missing benchmarks: flaskblogging, genshi_text, genshi_xml, html5lib, pylint, thrift
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
@@ -116,7 +116,7 @@
 
 ### vs. 3.10.4
 
-- Geometric mean: 1.01x slower (HPT: reliability of 97.16%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.01x slower (HPT: reliability of 96.69%, 1.00x slower at 99th %ile)
 - Memory usage: unknown
 - missing benchmarks: flaskblogging, genshi_text, genshi_xml, html5lib, pylint, thrift
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
@@ -141,8 +141,8 @@
 
 ### vs. 3.10.4
 
-- Geometric mean: 1.19x faster (HPT: reliability of 100.00%, 1.13x faster at 99th %ile)
-- Memory usage: 1.11x
+- Geometric mean: 1.19x faster (HPT: reliability of 100.00%, 1.14x faster at 99th %ile)
+- Memory usage: 1.10x
 - missing benchmarks: flaskblogging, genshi_text, genshi_xml, html5lib, pylint, thrift
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
 - [📄table](bm-20231002-darwin-arm64-python-v3.12.0-3.12.0-0fb18b0-vs-3.10.4.md)

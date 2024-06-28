@@ -26,8 +26,8 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.03x slower (HPT: reliability of 99.69%, 1.00x slower at 99th %ile)
-- Memory usage: 0.98x
+- Geometric mean: 1.03x slower (HPT: reliability of 99.47%, 1.00x slower at 99th %ile)
+- Memory usage: 0.99x
 - missing benchmarks: sqlalchemy_declarative, sqlalchemy_imperative
 - new benchmarks: genshi_text, genshi_xml, html5lib, pylint, thrift
 - [📄table](bm-20240329-pythonperf2-x86_64-mdboom-tier2_funcs-3.13.0a5%2B-cf5a818-vs-3.12.0.md)
@@ -44,7 +44,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.01x faster (HPT: reliability of 99.93%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.01x faster (HPT: reliability of 99.88%, 1.00x faster at 99th %ile)
 - Memory usage: 1.00x
 - [🧠memory plot](bm-20240329-pythonperf2-x86_64-mdboom-tier2_funcs-3.13.0a5%2B-cf5a818-vs-base-mem.svg)
 - [📄table](bm-20240329-pythonperf2-x86_64-mdboom-tier2_funcs-3.13.0a5%2B-cf5a818-vs-base.md)

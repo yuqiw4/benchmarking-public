@@ -40,7 +40,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.02x faster (HPT: reliability of 100.00%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.02x faster (HPT: reliability of 99.99%, 1.00x faster at 99th %ile)
 - Memory usage: 0.98x
 - missing benchmarks: bpe_tokeniser, django_template, djangocms, flaskblogging
 - [📄table](bm-20240403-linux-x86_64-python-c43f6a4dfaa1c1974141-3.13.0a5%2B-c43f6a4-vs-3.13.0b2.md)

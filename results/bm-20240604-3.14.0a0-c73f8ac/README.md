@@ -26,8 +26,8 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.02x faster (HPT: reliability of 96.32%, 1.00x faster at 99th %ile)
-- Memory usage: 0.97x
+- Geometric mean: 1.02x faster (HPT: reliability of 96.74%, 1.00x faster at 99th %ile)
+- Memory usage: 0.98x
 - missing benchmarks: aiohttp, chameleon, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: genshi_text, genshi_xml, html5lib, pylint, thrift
 - [📄table](bm-20240604-linux-x86_64-Fidget%252dSpinner-stackref_all-3.14.0a0-c73f8ac-vs-3.12.0.md)
@@ -35,7 +35,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.00x slower (HPT: reliability of 83.72%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.00x slower (HPT: reliability of 79.26%, 1.00x slower at 99th %ile)
 - Memory usage: 1.00x
 - missing benchmarks: aiohttp, bpe_tokeniser, chameleon, djangocms, flaskblogging, gunicorn, mypy2
 - [📄table](bm-20240604-linux-x86_64-Fidget%252dSpinner-stackref_all-3.14.0a0-c73f8ac-vs-3.13.0b2.md)
@@ -58,7 +58,7 @@
 
 ### vs. 3.10.4
 
-- Geometric mean: 1.27x faster (HPT: reliability of 100.00%, 1.17x faster at 99th %ile)
+- Geometric mean: 1.27x faster (HPT: reliability of 100.00%, 1.18x faster at 99th %ile)
 - Memory usage: 1.22x
 - missing benchmarks: aiohttp, chameleon, flaskblogging, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
@@ -67,8 +67,8 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.02x slower (HPT: reliability of 80.04%, 1.00x slower at 99th %ile)
-- Memory usage: 1.00x
+- Geometric mean: 1.02x slower (HPT: reliability of 73.75%, 1.00x slower at 99th %ile)
+- Memory usage: 1.01x
 - missing benchmarks: aiohttp, chameleon, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: genshi_text, genshi_xml, html5lib, pylint, thrift
 - [📄table](bm-20240604-pythonperf2-x86_64-Fidget%252dSpinner-stackref_all-3.14.0a0-c73f8ac-vs-3.12.0.md)
@@ -76,7 +76,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.02x slower (HPT: reliability of 97.08%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.02x slower (HPT: reliability of 97.27%, 1.00x slower at 99th %ile)
 - Memory usage: 1.09x
 - missing benchmarks: aiohttp, bpe_tokeniser, chameleon, flaskblogging, gunicorn, mypy2
 - [📄table](bm-20240604-pythonperf2-x86_64-Fidget%252dSpinner-stackref_all-3.14.0a0-c73f8ac-vs-3.13.0b2.md)

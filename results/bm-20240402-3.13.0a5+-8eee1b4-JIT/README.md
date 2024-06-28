@@ -17,8 +17,8 @@
 
 ### vs. 3.10.4
 
-- Geometric mean: 1.31x faster (HPT: reliability of 100.00%, 1.20x faster at 99th %ile)
-- Memory usage: 1.19x
+- Geometric mean: 1.31x faster (HPT: reliability of 100.00%, 1.21x faster at 99th %ile)
+- Memory usage: 1.18x
 - missing benchmarks: django_template, djangocms, flaskblogging, sqlalchemy_declarative, sqlalchemy_imperative
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
 - [📄table](bm-20240402-linux-x86_64-gvanrossum-exp_backoff-3.13.0a5%2B-8eee1b4-vs-3.10.4.md)
@@ -26,7 +26,7 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.01x faster (HPT: reliability of 80.23%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.01x faster (HPT: reliability of 82.78%, 1.00x faster at 99th %ile)
 - Memory usage: 1.04x
 - missing benchmarks: django_template, sqlalchemy_declarative, sqlalchemy_imperative
 - new benchmarks: genshi_text, genshi_xml, html5lib, pylint, thrift
@@ -35,7 +35,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.01x slower (HPT: reliability of 99.29%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.01x slower (HPT: reliability of 99.15%, 1.00x slower at 99th %ile)
 - Memory usage: 1.06x
 - missing benchmarks: bpe_tokeniser, django_template, djangocms, flaskblogging
 - new benchmarks: unpack_sequence
@@ -44,7 +44,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.00x faster (HPT: reliability of 66.26%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.00x faster (HPT: reliability of 66.40%, 1.00x faster at 99th %ile)
 - Memory usage: 1.00x
 - [🧠memory plot](bm-20240402-linux-x86_64-gvanrossum-exp_backoff-3.13.0a5%2B-8eee1b4-vs-base-mem.svg)
 - [📄table](bm-20240402-linux-x86_64-gvanrossum-exp_backoff-3.13.0a5%2B-8eee1b4-vs-base.md)

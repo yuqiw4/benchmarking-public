@@ -31,8 +31,8 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.04x faster (HPT: reliability of 99.93%, 1.00x faster at 99th %ile)
-- Memory usage: 0.96x
+- Geometric mean: 1.04x faster (HPT: reliability of 99.94%, 1.00x faster at 99th %ile)
+- Memory usage: 0.97x
 - missing benchmarks: django_template, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: genshi_text, genshi_xml, html5lib, pylint, thrift
 - [📄table](bm-20240414-linux-x86_64-python-a74f117dab369e6c5415-3.13.0a6%2B-a74f117-vs-3.12.0.md)
@@ -40,7 +40,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.01x faster (HPT: reliability of 98.63%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.01x faster (HPT: reliability of 98.61%, 1.00x faster at 99th %ile)
 - Memory usage: 0.98x
 - missing benchmarks: bpe_tokeniser, django_template, djangocms, flaskblogging
 - [📄table](bm-20240414-linux-x86_64-python-a74f117dab369e6c5415-3.13.0a6%2B-a74f117-vs-3.13.0b2.md)
@@ -56,7 +56,7 @@
 ### vs. 3.10.4
 
 - Geometric mean: 1.30x faster (HPT: reliability of 100.00%, 1.23x faster at 99th %ile)
-- Memory usage: 1.11x
+- Memory usage: 1.10x
 - missing benchmarks: django_template, flaskblogging, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
 - [📄table](bm-20240414-pythonperf2-x86_64-python-a74f117dab369e6c5415-3.13.0a6%2B-a74f117-vs-3.10.4.md)
@@ -64,8 +64,8 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.01x faster (HPT: reliability of 86.42%, 1.00x faster at 99th %ile)
-- Memory usage: 0.91x
+- Geometric mean: 1.01x faster (HPT: reliability of 87.96%, 1.00x faster at 99th %ile)
+- Memory usage: 0.92x
 - missing benchmarks: django_template, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: genshi_text, genshi_xml, html5lib, pylint, thrift
 - [📄table](bm-20240414-pythonperf2-x86_64-python-a74f117dab369e6c5415-3.13.0a6%2B-a74f117-vs-3.12.0.md)
@@ -73,7 +73,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.01x faster (HPT: reliability of 89.10%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.01x faster (HPT: reliability of 85.11%, 1.00x faster at 99th %ile)
 - Memory usage: 0.98x
 - missing benchmarks: bpe_tokeniser, django_template, flaskblogging
 - [📄table](bm-20240414-pythonperf2-x86_64-python-a74f117dab369e6c5415-3.13.0a6%2B-a74f117-vs-3.13.0b2.md)
@@ -88,7 +88,7 @@
 
 ### vs. 3.10.4
 
-- Geometric mean: 1.20x faster (HPT: reliability of 100.00%, 1.16x faster at 99th %ile)
+- Geometric mean: 1.20x faster (HPT: reliability of 100.00%, 1.17x faster at 99th %ile)
 - Memory usage: unknown
 - missing benchmarks: dask, django_template, flaskblogging, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
@@ -121,7 +121,7 @@
 
 ### vs. 3.10.4
 
-- Geometric mean: 1.17x faster (HPT: reliability of 100.00%, 1.14x faster at 99th %ile)
+- Geometric mean: 1.17x faster (HPT: reliability of 100.00%, 1.15x faster at 99th %ile)
 - Memory usage: unknown
 - missing benchmarks: aiohttp, dask, django_template, dulwich_log, flaskblogging, mypy2, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
@@ -155,7 +155,7 @@
 ### vs. 3.10.4
 
 - Geometric mean: 1.25x faster (HPT: reliability of 100.00%, 1.16x faster at 99th %ile)
-- Memory usage: 1.15x
+- Memory usage: 1.14x
 - missing benchmarks: django_template, flaskblogging, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_eager, async_tree_eager_cpu_io_mixed, async_tree_eager_cpu_io_mixed_tg, async_tree_eager_io, async_tree_eager_io_tg, async_tree_eager_memoization, async_tree_eager_memoization_tg, async_tree_eager_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
 - [📄table](bm-20240414-darwin-arm64-python-a74f117dab369e6c5415-3.13.0a6%2B-a74f117-vs-3.10.4.md)

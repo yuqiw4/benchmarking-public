@@ -18,7 +18,7 @@
 ### vs. 3.10.4
 
 - Geometric mean: 1.37x faster (HPT: reliability of 100.00%, 1.29x faster at 99th %ile)
-- Memory usage: 1.12x
+- Memory usage: 1.11x
 - missing benchmarks: aiohttp, chameleon, djangocms, flaskblogging, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg, bpe_tokeniser
 - [📄table](bm-20240622-linux-x86_64-python-e21347549535b16f51a3-3.14.0a0-e213475-vs-3.10.4.md)

@@ -35,7 +35,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.01x faster (HPT: reliability of 99.94%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.01x faster (HPT: reliability of 99.92%, 1.00x faster at 99th %ile)
 - Memory usage: 1.00x
 - missing benchmarks: aiohttp, bpe_tokeniser, chameleon, dask, djangocms, flaskblogging, gunicorn, mypy2
 - [📄table](bm-20240531-linux-x86_64-faster%252dcpython-deferred_rc_overhead-3.14.0a0-f748355-vs-3.13.0b2.md)
@@ -43,7 +43,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.00x faster (HPT: reliability of 96.72%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.00x faster (HPT: reliability of 97.13%, 1.00x slower at 99th %ile)
 - Memory usage: 1.01x
 - missing benchmarks: 🔴 dask
 - [🧠memory plot](bm-20240531-linux-x86_64-faster%252dcpython-deferred_rc_overhead-3.14.0a0-f748355-vs-base-mem.svg)

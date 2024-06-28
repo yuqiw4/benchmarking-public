@@ -17,8 +17,8 @@
 
 ### vs. 3.10.4
 
-- Geometric mean: 1.13x faster (HPT: reliability of 100.00%, 1.09x faster at 99th %ile)
-- Memory usage: 1.22x
+- Geometric mean: 1.13x faster (HPT: reliability of 100.00%, 1.07x faster at 99th %ile)
+- Memory usage: 1.20x
 - missing benchmarks: flaskblogging, sqlalchemy_declarative, sqlalchemy_imperative
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
 - [📄table](bm-20240321-linux-x86_64-python-50f9b0b1e0fb18187575-3.13.0a5%2B-50f9b0b-vs-3.10.4.md)
@@ -26,8 +26,8 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.25x slower (HPT: reliability of 99.96%, 1.01x slower at 99th %ile)
-- Memory usage: 1.06x
+- Geometric mean: 1.25x slower (HPT: reliability of 99.97%, 1.01x slower at 99th %ile)
+- Memory usage: 1.07x
 - missing benchmarks: sqlalchemy_declarative, sqlalchemy_imperative
 - new benchmarks: djangocms, genshi_text, genshi_xml, html5lib, pylint, thrift
 - [📄table](bm-20240321-linux-x86_64-python-50f9b0b1e0fb18187575-3.13.0a5%2B-50f9b0b-vs-3.12.0.md)
@@ -35,8 +35,8 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.28x slower (HPT: reliability of 100.00%, 1.02x slower at 99th %ile)
-- Memory usage: 1.09x
+- Geometric mean: 1.28x slower (HPT: reliability of 100.00%, 1.03x slower at 99th %ile)
+- Memory usage: 1.08x
 - missing benchmarks: bpe_tokeniser, flaskblogging
 - new benchmarks: unpack_sequence
 - [📄table](bm-20240321-linux-x86_64-python-50f9b0b1e0fb18187575-3.13.0a5%2B-50f9b0b-vs-3.13.0b2.md)

@@ -17,8 +17,8 @@
 
 ### vs. 3.10.4
 
-- Geometric mean: 1.32x faster (HPT: reliability of 100.00%, 1.21x faster at 99th %ile)
-- Memory usage: 1.21x
+- Geometric mean: 1.32x faster (HPT: reliability of 100.00%, 1.22x faster at 99th %ile)
+- Memory usage: 1.20x
 - missing benchmarks: docutils, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
 - [📄table](bm-20240505-linux-x86_64-brandtbucher-dynamic_exit-3.13.0a6%2B-a8158ae-vs-3.10.4.md)
@@ -26,8 +26,8 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.03x faster (HPT: reliability of 95.60%, 1.00x faster at 99th %ile)
-- Memory usage: 1.06x
+- Geometric mean: 1.03x faster (HPT: reliability of 97.19%, 1.00x faster at 99th %ile)
+- Memory usage: 1.07x
 - missing benchmarks: docutils, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: djangocms, flaskblogging, genshi_text, genshi_xml, html5lib, pylint, thrift
 - [📄table](bm-20240505-linux-x86_64-brandtbucher-dynamic_exit-3.13.0a6%2B-a8158ae-vs-3.12.0.md)
@@ -35,7 +35,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.01x slower (HPT: reliability of 88.84%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.01x slower (HPT: reliability of 84.92%, 1.00x slower at 99th %ile)
 - Memory usage: 1.08x
 - missing benchmarks: bpe_tokeniser, docutils
 - [📄table](bm-20240505-linux-x86_64-brandtbucher-dynamic_exit-3.13.0a6%2B-a8158ae-vs-3.13.0b2.md)
@@ -43,7 +43,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.01x slower (HPT: reliability of 99.83%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.01x slower (HPT: reliability of 99.77%, 1.00x slower at 99th %ile)
 - Memory usage: 1.00x
 - [🧠memory plot](bm-20240505-linux-x86_64-brandtbucher-dynamic_exit-3.13.0a6%2B-a8158ae-vs-base-mem.svg)
 - [📄table](bm-20240505-linux-x86_64-brandtbucher-dynamic_exit-3.13.0a6%2B-a8158ae-vs-base.md)

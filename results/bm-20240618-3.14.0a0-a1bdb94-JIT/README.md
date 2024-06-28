@@ -27,7 +27,7 @@
 ### vs. 3.12.0
 
 - Geometric mean: 1.06x slower (HPT: reliability of 100.00%, 1.02x slower at 99th %ile)
-- Memory usage: 1.00x
+- Memory usage: 1.01x
 - missing benchmarks: aiohttp, chameleon, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative
 - new benchmarks: bpe_tokeniser
 - [📄table](bm-20240618-arminc-aarch64-brandtbucher-no_cold_exits-3.14.0a0-a1bdb94-vs-3.12.0.md)
@@ -43,7 +43,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.00x faster (HPT: reliability of 70.96%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.01x faster (HPT: reliability of 61.82%, 1.00x faster at 99th %ile)
 - Memory usage: 0.98x
 - [🧠memory plot](bm-20240618-arminc-aarch64-brandtbucher-no_cold_exits-3.14.0a0-a1bdb94-vs-base-mem.svg)
 - [📄table](bm-20240618-arminc-aarch64-brandtbucher-no_cold_exits-3.14.0a0-a1bdb94-vs-base.md)
@@ -76,7 +76,7 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.05x faster (HPT: reliability of 97.86%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.05x faster (HPT: reliability of 98.37%, 1.00x faster at 99th %ile)
 - Memory usage: 1.04x
 - missing benchmarks: aiohttp, chameleon, docutils, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: bpe_tokeniser, genshi_text, genshi_xml, html5lib, pylint, thrift
@@ -85,7 +85,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.01x faster (HPT: reliability of 51.89%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.01x faster (HPT: reliability of 55.63%, 1.00x faster at 99th %ile)
 - Memory usage: 1.07x
 - missing benchmarks: aiohttp, chameleon, djangocms, docutils, flaskblogging, gunicorn, mypy2
 - [📄table](bm-20240618-linux-x86_64-brandtbucher-no_cold_exits-3.14.0a0-a1bdb94-vs-3.13.0b2.md)
@@ -93,7 +93,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.00x slower (HPT: reliability of 52.91%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.02x slower (HPT: reliability of 100.00%, 1.01x slower at 99th %ile)
 - Memory usage: 0.98x
 - missing benchmarks: 🔴 docutils
 - [🧠memory plot](bm-20240618-linux-x86_64-brandtbucher-no_cold_exits-3.14.0a0-a1bdb94-vs-base-mem.svg)
@@ -118,7 +118,7 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.00x faster (HPT: reliability of 70.62%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.00x faster (HPT: reliability of 72.40%, 1.00x faster at 99th %ile)
 - Memory usage: 1.00x
 - missing benchmarks: aiohttp, chameleon, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: bpe_tokeniser, genshi_text, genshi_xml, html5lib, pylint, thrift
@@ -127,7 +127,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.00x slower (HPT: reliability of 95.01%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.00x slower (HPT: reliability of 94.85%, 1.00x slower at 99th %ile)
 - Memory usage: 1.07x
 - missing benchmarks: aiohttp, chameleon, flaskblogging, gunicorn, mypy2
 - [📄table](bm-20240618-pythonperf2-x86_64-brandtbucher-no_cold_exits-3.14.0a0-a1bdb94-vs-3.13.0b2.md)
@@ -135,7 +135,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.01x faster (HPT: reliability of 97.74%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.00x faster (HPT: reliability of 67.44%, 1.00x slower at 99th %ile)
 - Memory usage: 0.98x
 - [🧠memory plot](bm-20240618-pythonperf2-x86_64-brandtbucher-no_cold_exits-3.14.0a0-a1bdb94-vs-base-mem.svg)
 - [📄table](bm-20240618-pythonperf2-x86_64-brandtbucher-no_cold_exits-3.14.0a0-a1bdb94-vs-base.md)
@@ -168,7 +168,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.03x faster (HPT: reliability of 92.79%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.03x faster (HPT: reliability of 92.32%, 1.00x slower at 99th %ile)
 - Memory usage: unknown
 - missing benchmarks: aiohttp, chameleon, dulwich_log, flaskblogging, mypy2, sqlglot_normalize
 - [📄table](bm-20240618-pythonperf1-amd64-brandtbucher-no_cold_exits-3.14.0a0-a1bdb94-vs-3.13.0b2.md)
@@ -176,7 +176,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.00x faster (HPT: reliability of 89.85%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.01x faster (HPT: reliability of 98.25%, 1.00x faster at 99th %ile)
 - Memory usage: unknown
 - [📄table](bm-20240618-pythonperf1-amd64-brandtbucher-no_cold_exits-3.14.0a0-a1bdb94-vs-base.md)
 - [📈time plot](bm-20240618-pythonperf1-amd64-brandtbucher-no_cold_exits-3.14.0a0-a1bdb94-vs-base.svg)
@@ -208,7 +208,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.05x faster (HPT: reliability of 98.01%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.05x faster (HPT: reliability of 97.95%, 1.00x slower at 99th %ile)
 - Memory usage: unknown
 - missing benchmarks: chameleon, flaskblogging
 - [📄table](bm-20240618-pythonperf1_win32-x86-brandtbucher-no_cold_exits-3.14.0a0-a1bdb94-vs-3.13.0b2.md)
@@ -216,7 +216,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.00x faster (HPT: reliability of 99.60%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.01x faster (HPT: reliability of 99.97%, 1.00x faster at 99th %ile)
 - Memory usage: unknown
 - [📄table](bm-20240618-pythonperf1_win32-x86-brandtbucher-no_cold_exits-3.14.0a0-a1bdb94-vs-base.md)
 - [📈time plot](bm-20240618-pythonperf1_win32-x86-brandtbucher-no_cold_exits-3.14.0a0-a1bdb94-vs-base.svg)
@@ -256,8 +256,8 @@
 
 ### vs. base
 
-- Geometric mean: 1.00x faster (HPT: reliability of 63.45%, 1.00x slower at 99th %ile)
-- Memory usage: 0.90x
+- Geometric mean: 1.00x faster (HPT: reliability of 92.91%, 1.00x faster at 99th %ile)
+- Memory usage: 0.91x
 - [🧠memory plot](bm-20240618-darwin-arm64-brandtbucher-no_cold_exits-3.14.0a0-a1bdb94-vs-base-mem.svg)
 - [📄table](bm-20240618-darwin-arm64-brandtbucher-no_cold_exits-3.14.0a0-a1bdb94-vs-base.md)
 - [📈time plot](bm-20240618-darwin-arm64-brandtbucher-no_cold_exits-3.14.0a0-a1bdb94-vs-base.svg)

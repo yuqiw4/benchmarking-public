@@ -18,7 +18,7 @@
 ### vs. 3.10.4
 
 - Geometric mean: 1.33x faster (HPT: reliability of 100.00%, 1.22x faster at 99th %ile)
-- Memory usage: 1.19x
+- Memory usage: 1.18x
 - missing benchmarks: flaskblogging, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
 - [📄table](bm-20240420-linux-x86_64-python-15fbd53ba96be4b6a5ab-3.13.0a6%2B-15fbd53-vs-3.10.4.md)
@@ -26,7 +26,7 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.03x faster (HPT: reliability of 97.52%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.03x faster (HPT: reliability of 97.75%, 1.00x faster at 99th %ile)
 - Memory usage: 1.04x
 - missing benchmarks: sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: djangocms, genshi_text, genshi_xml, html5lib, pylint, thrift
@@ -35,7 +35,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.00x faster (HPT: reliability of 95.93%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.00x faster (HPT: reliability of 95.19%, 1.00x slower at 99th %ile)
 - Memory usage: 1.06x
 - missing benchmarks: bpe_tokeniser, flaskblogging
 - [📄table](bm-20240420-linux-x86_64-python-15fbd53ba96be4b6a5ab-3.13.0a6%2B-15fbd53-vs-3.13.0b2.md)
@@ -43,8 +43,8 @@
 
 ### vs. base
 
-- Geometric mean: 1.01x slower (HPT: reliability of 99.93%, 1.00x slower at 99th %ile)
-- Memory usage: 1.08x
+- Geometric mean: 1.01x slower (HPT: reliability of 99.88%, 1.00x slower at 99th %ile)
+- Memory usage: 1.07x
 - [🧠memory plot](bm-20240420-linux-x86_64-python-15fbd53ba96be4b6a5ab-3.13.0a6%2B-15fbd53-vs-base-mem.svg)
 - [📄table](bm-20240420-linux-x86_64-python-15fbd53ba96be4b6a5ab-3.13.0a6%2B-15fbd53-vs-base.md)
 - [📈time plot](bm-20240420-linux-x86_64-python-15fbd53ba96be4b6a5ab-3.13.0a6%2B-15fbd53-vs-base.svg)
@@ -59,7 +59,7 @@
 ### vs. 3.10.4
 
 - Geometric mean: 1.27x faster (HPT: reliability of 100.00%, 1.18x faster at 99th %ile)
-- Memory usage: 1.20x
+- Memory usage: 1.19x
 - missing benchmarks: flaskblogging, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
 - [📄table](bm-20240420-pythonperf2-x86_64-python-15fbd53ba96be4b6a5ab-3.13.0a6%2B-15fbd53-vs-3.10.4.md)
@@ -67,8 +67,8 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.01x slower (HPT: reliability of 97.77%, 1.00x slower at 99th %ile)
-- Memory usage: 0.99x
+- Geometric mean: 1.01x slower (HPT: reliability of 96.70%, 1.00x slower at 99th %ile)
+- Memory usage: 1.00x
 - missing benchmarks: sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: genshi_text, genshi_xml, html5lib, pylint, thrift
 - [📄table](bm-20240420-pythonperf2-x86_64-python-15fbd53ba96be4b6a5ab-3.13.0a6%2B-15fbd53-vs-3.12.0.md)
@@ -99,7 +99,7 @@
 
 ### vs. 3.10.4
 
-- Geometric mean: 1.23x faster (HPT: reliability of 100.00%, 1.17x faster at 99th %ile)
+- Geometric mean: 1.23x faster (HPT: reliability of 100.00%, 1.18x faster at 99th %ile)
 - Memory usage: unknown
 - missing benchmarks: dask, flaskblogging, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
@@ -108,7 +108,7 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.08x faster (HPT: reliability of 100.00%, 1.03x faster at 99th %ile)
+- Geometric mean: 1.08x faster (HPT: reliability of 100.00%, 1.04x faster at 99th %ile)
 - Memory usage: unknown
 - missing benchmarks: dask, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: genshi_text, genshi_xml, html5lib, pylint, thrift
@@ -117,7 +117,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.01x slower (HPT: reliability of 76.69%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.01x slower (HPT: reliability of 78.30%, 1.00x slower at 99th %ile)
 - Memory usage: unknown
 - missing benchmarks: flaskblogging
 - [📄table](bm-20240420-pythonperf1-amd64-python-15fbd53ba96be4b6a5ab-3.13.0a6%2B-15fbd53-vs-3.13.0b2.md)
@@ -125,7 +125,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.03x faster (HPT: reliability of 99.85%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.03x faster (HPT: reliability of 99.77%, 1.00x faster at 99th %ile)
 - Memory usage: unknown
 - [📄table](bm-20240420-pythonperf1-amd64-python-15fbd53ba96be4b6a5ab-3.13.0a6%2B-15fbd53-vs-base.md)
 - [📈time plot](bm-20240420-pythonperf1-amd64-python-15fbd53ba96be4b6a5ab-3.13.0a6%2B-15fbd53-vs-base.svg)
@@ -180,7 +180,7 @@
 ### vs. 3.10.4
 
 - Geometric mean: 1.24x faster (HPT: reliability of 100.00%, 1.16x faster at 99th %ile)
-- Memory usage: 1.39x
+- Memory usage: 1.38x
 - missing benchmarks: flaskblogging, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_eager, async_tree_eager_cpu_io_mixed, async_tree_eager_cpu_io_mixed_tg, async_tree_eager_io, async_tree_eager_io_tg, async_tree_eager_memoization, async_tree_eager_memoization_tg, async_tree_eager_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
 - [📄table](bm-20240420-darwin-arm64-python-15fbd53ba96be4b6a5ab-3.13.0a6%2B-15fbd53-vs-3.10.4.md)
@@ -198,15 +198,15 @@
 ### vs. 3.13.0b2
 
 - Geometric mean: 1.03x slower (HPT: reliability of 100.00%, 1.01x slower at 99th %ile)
-- Memory usage: 1.17x
+- Memory usage: 1.16x
 - missing benchmarks: bpe_tokeniser, flaskblogging
 - [📄table](bm-20240420-darwin-arm64-python-15fbd53ba96be4b6a5ab-3.13.0a6%2B-15fbd53-vs-3.13.0b2.md)
 - [📈time plot](bm-20240420-darwin-arm64-python-15fbd53ba96be4b6a5ab-3.13.0a6%2B-15fbd53-vs-3.13.0b2.svg)
 
 ### vs. base
 
-- Geometric mean: 1.01x slower (HPT: reliability of 92.07%, 1.00x slower at 99th %ile)
-- Memory usage: 1.20x
+- Geometric mean: 1.01x slower (HPT: reliability of 93.42%, 1.00x slower at 99th %ile)
+- Memory usage: 1.19x
 - [🧠memory plot](bm-20240420-darwin-arm64-python-15fbd53ba96be4b6a5ab-3.13.0a6%2B-15fbd53-vs-base-mem.svg)
 - [📄table](bm-20240420-darwin-arm64-python-15fbd53ba96be4b6a5ab-3.13.0a6%2B-15fbd53-vs-base.md)
 - [📈time plot](bm-20240420-darwin-arm64-python-15fbd53ba96be4b6a5ab-3.13.0a6%2B-15fbd53-vs-base.svg)

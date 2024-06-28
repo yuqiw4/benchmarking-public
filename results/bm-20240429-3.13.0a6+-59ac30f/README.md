@@ -18,7 +18,7 @@
 ### vs. 3.10.4
 
 - Geometric mean: 1.35x faster (HPT: reliability of 100.00%, 1.27x faster at 99th %ile)
-- Memory usage: 1.10x
+- Memory usage: 1.09x
 - missing benchmarks: flaskblogging, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
 - [📄table](bm-20240429-linux-x86_64-nineteendo-use_PyTuple_Pack-3.13.0a6%2B-59ac30f-vs-3.10.4.md)
@@ -27,7 +27,7 @@
 ### vs. 3.12.0
 
 - Geometric mean: 1.05x faster (HPT: reliability of 100.00%, 1.02x faster at 99th %ile)
-- Memory usage: 0.96x
+- Memory usage: 0.97x
 - missing benchmarks: sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: djangocms, genshi_text, genshi_xml, html5lib, pylint, thrift
 - [📄table](bm-20240429-linux-x86_64-nineteendo-use_PyTuple_Pack-3.13.0a6%2B-59ac30f-vs-3.12.0.md)
@@ -43,8 +43,8 @@
 
 ### vs. base
 
-- Geometric mean: 1.00x faster (HPT: reliability of 85.04%, 1.00x faster at 99th %ile)
-- Memory usage: 1.00x
+- Geometric mean: 1.00x faster (HPT: reliability of 86.36%, 1.00x faster at 99th %ile)
+- Memory usage: 0.99x
 - [🧠memory plot](bm-20240429-linux-x86_64-nineteendo-use_PyTuple_Pack-3.13.0a6%2B-59ac30f-vs-base-mem.svg)
 - [📄table](bm-20240429-linux-x86_64-nineteendo-use_PyTuple_Pack-3.13.0a6%2B-59ac30f-vs-base.md)
 - [📈time plot](bm-20240429-linux-x86_64-nineteendo-use_PyTuple_Pack-3.13.0a6%2B-59ac30f-vs-base.svg)

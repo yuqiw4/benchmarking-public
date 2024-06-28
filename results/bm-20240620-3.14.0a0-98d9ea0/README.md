@@ -43,7 +43,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.00x slower (HPT: reliability of 70.47%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.00x slower (HPT: reliability of 71.03%, 1.00x faster at 99th %ile)
 - Memory usage: 1.00x
 - [🧠memory plot](bm-20240620-linux-x86_64-nohlson-enable_no_impact_def-3.14.0a0-98d9ea0-vs-base-mem.svg)
 - [📄table](bm-20240620-linux-x86_64-nohlson-enable_no_impact_def-3.14.0a0-98d9ea0-vs-base.md)

@@ -18,7 +18,7 @@
 ### vs. 3.10.4
 
 - Geometric mean: 1.23x faster (HPT: reliability of 100.00%, 1.16x faster at 99th %ile)
-- Memory usage: 1.40x
+- Memory usage: 1.39x
 - missing benchmarks: flaskblogging, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_eager, async_tree_eager_cpu_io_mixed, async_tree_eager_cpu_io_mixed_tg, async_tree_eager_io, async_tree_eager_io_tg, async_tree_eager_memoization, async_tree_eager_memoization_tg, async_tree_eager_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
 - [📄table](bm-20240427-darwin-arm64-savannahostrowski-llvm_18-3.13.0a6%2B-b2bbeb0-vs-3.10.4.md)
@@ -36,7 +36,7 @@
 ### vs. 3.13.0b2
 
 - Geometric mean: 1.03x slower (HPT: reliability of 100.00%, 1.01x slower at 99th %ile)
-- Memory usage: 1.18x
+- Memory usage: 1.17x
 - missing benchmarks: bpe_tokeniser, flaskblogging
 - [📄table](bm-20240427-darwin-arm64-savannahostrowski-llvm_18-3.13.0a6%2B-b2bbeb0-vs-3.13.0b2.md)
 - [📈time plot](bm-20240427-darwin-arm64-savannahostrowski-llvm_18-3.13.0a6%2B-b2bbeb0-vs-3.13.0b2.svg)

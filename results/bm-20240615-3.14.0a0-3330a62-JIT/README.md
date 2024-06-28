@@ -35,7 +35,7 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.05x faster (HPT: reliability of 96.63%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.05x faster (HPT: reliability of 97.11%, 1.00x faster at 99th %ile)
 - Memory usage: 1.07x
 - missing benchmarks: aiohttp, chameleon, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: bpe_tokeniser, genshi_text, genshi_xml, html5lib, pylint, thrift
@@ -44,7 +44,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.01x faster (HPT: reliability of 59.18%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.01x faster (HPT: reliability of 58.98%, 1.00x faster at 99th %ile)
 - Memory usage: 1.09x
 - missing benchmarks: aiohttp, chameleon, djangocms, flaskblogging, gunicorn, mypy2
 - [📄table](bm-20240615-linux-x86_64-Fidget%252dSpinner-optimizer_constant_p-3.14.0a0-3330a62-vs-3.13.0b2.md)
@@ -52,7 +52,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.01x faster (HPT: reliability of 85.04%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.01x faster (HPT: reliability of 81.76%, 1.00x faster at 99th %ile)
 - Memory usage: 1.00x
 - [🧠memory plot](bm-20240615-linux-x86_64-Fidget%252dSpinner-optimizer_constant_p-3.14.0a0-3330a62-vs-base-mem.svg)
 - [📄table](bm-20240615-linux-x86_64-Fidget%252dSpinner-optimizer_constant_p-3.14.0a0-3330a62-vs-base.md)

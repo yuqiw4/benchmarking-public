@@ -52,7 +52,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.01x faster (HPT: reliability of 99.52%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.01x faster (HPT: reliability of 99.47%, 1.00x faster at 99th %ile)
 - Memory usage: 1.00x
 - [🧠memory plot](bm-20240423-linux-x86_64-faster%252dcpython-function_entry_enter-3.13.0a6%2B-d04d9ac-vs-base-mem.svg)
 - [📄table](bm-20240423-linux-x86_64-faster%252dcpython-function_entry_enter-3.13.0a6%2B-d04d9ac-vs-base.md)

@@ -43,7 +43,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.00x slower (HPT: reliability of 54.94%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.00x slower (HPT: reliability of 54.32%, 1.00x slower at 99th %ile)
 - Memory usage: 1.01x
 - [🧠memory plot](bm-20240625-linux-x86_64-nohlson-enable_fcf_protectio-3.14.0a0-34aead4-vs-base-mem.svg)
 - [📄table](bm-20240625-linux-x86_64-nohlson-enable_fcf_protectio-3.14.0a0-34aead4-vs-base.md)
