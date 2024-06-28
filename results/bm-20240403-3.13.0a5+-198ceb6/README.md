@@ -31,7 +31,7 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.03x faster (HPT: reliability of 98.40%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.03x faster (HPT: reliability of 98.60%, 1.00x faster at 99th %ile)
 - Memory usage: 0.95x
 - missing benchmarks: sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: djangocms, genshi_text, genshi_xml, html5lib, pylint, thrift
@@ -40,7 +40,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.00x faster (HPT: reliability of 90.69%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.00x faster (HPT: reliability of 94.14%, 1.00x faster at 99th %ile)
 - Memory usage: 0.97x
 - missing benchmarks: bpe_tokeniser, flaskblogging
 - [📄table](bm-20240403-linux-x86_64-faster%252dcpython-specialize_binary_op-3.13.0a5%2B-198ceb6-vs-3.13.0b2.md)

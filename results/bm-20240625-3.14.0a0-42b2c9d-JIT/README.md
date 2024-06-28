@@ -27,7 +27,7 @@
 ### vs. 3.12.0
 
 - Geometric mean: 1.05x slower (HPT: reliability of 100.00%, 1.03x slower at 99th %ile)
-- Memory usage: 1.02x
+- Memory usage: 1.01x
 - missing benchmarks: aiohttp, chameleon, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative
 - new benchmarks: bpe_tokeniser
 - [📄table](bm-20240625-arminc-aarch64-python-42b2c9d78da7ebd6bd59-3.14.0a0-42b2c9d-vs-3.12.0.md)

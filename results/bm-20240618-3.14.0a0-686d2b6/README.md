@@ -26,7 +26,7 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.05x faster (HPT: reliability of 99.98%, 1.01x faster at 99th %ile)
+- Geometric mean: 1.05x faster (HPT: reliability of 99.99%, 1.01x faster at 99th %ile)
 - Memory usage: 0.98x
 - missing benchmarks: aiohttp, chameleon, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: bpe_tokeniser, genshi_text, genshi_xml, html5lib, pylint, thrift
@@ -43,7 +43,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.00x faster (HPT: reliability of 93.15%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.00x faster (HPT: reliability of 91.84%, 1.00x faster at 99th %ile)
 - Memory usage: 1.01x
 - [🧠memory plot](bm-20240618-linux-x86_64-encukou-immortal_interned-3.14.0a0-686d2b6-vs-base-mem.svg)
 - [📄table](bm-20240618-linux-x86_64-encukou-immortal_interned-3.14.0a0-686d2b6-vs-base.md)

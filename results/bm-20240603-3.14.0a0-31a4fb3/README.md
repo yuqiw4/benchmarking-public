@@ -27,7 +27,7 @@
 ### vs. 3.12.0
 
 - Geometric mean: 1.04x faster (HPT: reliability of 100.00%, 1.01x faster at 99th %ile)
-- Memory usage: 0.98x
+- Memory usage: 0.97x
 - missing benchmarks: aiohttp, chameleon, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: genshi_text, genshi_xml, html5lib, pylint, thrift
 - [📄table](bm-20240603-linux-x86_64-python-31a4fb3c74a028443634-3.14.0a0-31a4fb3-vs-3.12.0.md)
@@ -50,7 +50,7 @@
 
 ### vs. 3.10.4
 
-- Geometric mean: 1.28x faster (HPT: reliability of 100.00%, 1.20x faster at 99th %ile)
+- Geometric mean: 1.28x faster (HPT: reliability of 100.00%, 1.19x faster at 99th %ile)
 - Memory usage: 1.22x
 - missing benchmarks: aiohttp, chameleon, flaskblogging, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
@@ -59,8 +59,8 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.01x slower (HPT: reliability of 65.69%, 1.00x faster at 99th %ile)
-- Memory usage: 1.01x
+- Geometric mean: 1.01x slower (HPT: reliability of 57.53%, 1.00x faster at 99th %ile)
+- Memory usage: 1.00x
 - missing benchmarks: aiohttp, chameleon, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: genshi_text, genshi_xml, html5lib, pylint, thrift
 - [📄table](bm-20240603-pythonperf2-x86_64-python-31a4fb3c74a028443634-3.14.0a0-31a4fb3-vs-3.12.0.md)
@@ -68,7 +68,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.01x slower (HPT: reliability of 97.80%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.01x slower (HPT: reliability of 98.20%, 1.00x slower at 99th %ile)
 - Memory usage: 1.09x
 - missing benchmarks: aiohttp, bpe_tokeniser, chameleon, flaskblogging, gunicorn, mypy2
 - [📄table](bm-20240603-pythonperf2-x86_64-python-31a4fb3c74a028443634-3.14.0a0-31a4fb3-vs-3.13.0b2.md)

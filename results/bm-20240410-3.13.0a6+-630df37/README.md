@@ -27,7 +27,7 @@
 ### vs. 3.12.0
 
 - Geometric mean: 1.04x faster (HPT: reliability of 99.99%, 1.01x faster at 99th %ile)
-- Memory usage: 0.96x
+- Memory usage: 0.95x
 - missing benchmarks: django_template, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: genshi_text, genshi_xml, html5lib, pylint, thrift
 - [📄table](bm-20240410-linux-x86_64-python-630df37116b1c5b38198-3.13.0a6%2B-630df37-vs-3.12.0.md)

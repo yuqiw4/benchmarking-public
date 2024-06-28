@@ -17,8 +17,8 @@
 
 ### vs. 3.10.4
 
-- Geometric mean: 1.33x faster (HPT: reliability of 100.00%, 1.22x faster at 99th %ile)
-- Memory usage: 1.19x
+- Geometric mean: 1.33x faster (HPT: reliability of 100.00%, 1.21x faster at 99th %ile)
+- Memory usage: 1.20x
 - missing benchmarks: flaskblogging, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
 - [📄table](bm-20240502-linux-x86_64-brandtbucher-exits-3.13.0a6%2B-b9f3875-vs-3.10.4.md)
@@ -26,7 +26,7 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.04x faster (HPT: reliability of 97.80%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.04x faster (HPT: reliability of 97.34%, 1.00x faster at 99th %ile)
 - Memory usage: 1.05x
 - missing benchmarks: sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: djangocms, genshi_text, genshi_xml, html5lib, pylint, thrift
@@ -35,7 +35,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.00x faster (HPT: reliability of 87.30%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.00x faster (HPT: reliability of 90.07%, 1.00x slower at 99th %ile)
 - Memory usage: 1.07x
 - missing benchmarks: bpe_tokeniser, flaskblogging
 - [📄table](bm-20240502-linux-x86_64-brandtbucher-exits-3.13.0a6%2B-b9f3875-vs-3.13.0b2.md)
@@ -43,7 +43,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.00x faster (HPT: reliability of 94.86%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.00x faster (HPT: reliability of 95.75%, 1.00x faster at 99th %ile)
 - Memory usage: 1.01x
 - [🧠memory plot](bm-20240502-linux-x86_64-brandtbucher-exits-3.13.0a6%2B-b9f3875-vs-base-mem.svg)
 - [📄table](bm-20240502-linux-x86_64-brandtbucher-exits-3.13.0a6%2B-b9f3875-vs-base.md)

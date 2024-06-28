@@ -27,7 +27,7 @@
 ### vs. 3.12.0
 
 - Geometric mean: 1.05x slower (HPT: reliability of 100.00%, 1.02x slower at 99th %ile)
-- Memory usage: 1.02x
+- Memory usage: 1.01x
 - missing benchmarks: aiohttp, chameleon, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative
 - new benchmarks: bpe_tokeniser
 - [📄table](bm-20240622-arminc-aarch64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-3.12.0.md)
@@ -59,7 +59,7 @@
 ### vs. 3.10.4
 
 - Geometric mean: 1.38x faster (HPT: reliability of 100.00%, 1.25x faster at 99th %ile)
-- Memory usage: 1.20x
+- Memory usage: 1.21x
 - missing benchmarks: aiohttp, chameleon, djangocms, flaskblogging, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg, bpe_tokeniser
 - [📄table](bm-20240622-linux-x86_64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-3.10.4.md)
@@ -76,7 +76,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.04x faster (HPT: reliability of 99.91%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.04x faster (HPT: reliability of 99.92%, 1.00x faster at 99th %ile)
 - Memory usage: 1.08x
 - missing benchmarks: aiohttp, chameleon, djangocms, flaskblogging, gunicorn, mypy2
 - [📄table](bm-20240622-linux-x86_64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-3.13.0b2.md)
@@ -84,7 +84,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.00x slower (HPT: reliability of 91.25%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.00x faster (HPT: reliability of 63.98%, 1.00x slower at 99th %ile)
 - Memory usage: 1.08x
 - [🧠memory plot](bm-20240622-linux-x86_64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-base-mem.svg)
 - [📄table](bm-20240622-linux-x86_64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-base.md)
@@ -108,8 +108,8 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.01x faster (HPT: reliability of 50.54%, 1.00x slower at 99th %ile)
-- Memory usage: 1.02x
+- Geometric mean: 1.01x faster (HPT: reliability of 53.15%, 1.00x slower at 99th %ile)
+- Memory usage: 1.01x
 - missing benchmarks: aiohttp, chameleon, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: bpe_tokeniser, genshi_text, genshi_xml, html5lib, pylint, thrift
 - [📄table](bm-20240622-pythonperf2-x86_64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-3.12.0.md)
@@ -117,16 +117,16 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.01x faster (HPT: reliability of 65.20%, 1.00x faster at 99th %ile)
-- Memory usage: 1.08x
+- Geometric mean: 1.01x faster (HPT: reliability of 66.90%, 1.00x faster at 99th %ile)
+- Memory usage: 1.09x
 - missing benchmarks: aiohttp, chameleon, flaskblogging, gunicorn, mypy2
 - [📄table](bm-20240622-pythonperf2-x86_64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-3.13.0b2.md)
 - [📈time plot](bm-20240622-pythonperf2-x86_64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-3.13.0b2.svg)
 
 ### vs. base
 
-- Geometric mean: 1.01x slower (HPT: reliability of 95.19%, 1.00x slower at 99th %ile)
-- Memory usage: 1.08x
+- Geometric mean: 1.01x slower (HPT: reliability of 95.97%, 1.00x slower at 99th %ile)
+- Memory usage: 1.09x
 - [🧠memory plot](bm-20240622-pythonperf2-x86_64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-base-mem.svg)
 - [📄table](bm-20240622-pythonperf2-x86_64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-base.md)
 - [📈time plot](bm-20240622-pythonperf2-x86_64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-base.svg)
@@ -158,7 +158,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.03x faster (HPT: reliability of 70.88%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.03x faster (HPT: reliability of 73.32%, 1.00x slower at 99th %ile)
 - Memory usage: unknown
 - missing benchmarks: aiohttp, chameleon, dulwich_log, flaskblogging, mypy2
 - [📄table](bm-20240622-pythonperf1-amd64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-3.13.0b2.md)
@@ -166,7 +166,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.01x slower (HPT: reliability of 77.25%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.01x slower (HPT: reliability of 77.31%, 1.00x slower at 99th %ile)
 - Memory usage: unknown
 - [📄table](bm-20240622-pythonperf1-amd64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-base.md)
 - [📈time plot](bm-20240622-pythonperf1-amd64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-base.svg)
@@ -198,7 +198,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.05x faster (HPT: reliability of 71.03%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.05x faster (HPT: reliability of 71.66%, 1.00x slower at 99th %ile)
 - Memory usage: unknown
 - missing benchmarks: chameleon, flaskblogging
 - [📄table](bm-20240622-pythonperf1_win32-x86-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-3.13.0b2.md)
@@ -206,7 +206,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.07x faster (HPT: reliability of 99.98%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.07x faster (HPT: reliability of 99.99%, 1.00x faster at 99th %ile)
 - Memory usage: unknown
 - [📄table](bm-20240622-pythonperf1_win32-x86-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-base.md)
 - [📈time plot](bm-20240622-pythonperf1_win32-x86-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-base.svg)
@@ -221,7 +221,7 @@
 ### vs. 3.10.4
 
 - Geometric mean: 1.25x faster (HPT: reliability of 100.00%, 1.16x faster at 99th %ile)
-- Memory usage: 1.44x
+- Memory usage: 1.45x
 - missing benchmarks: aiohttp, chameleon, dulwich_log, flaskblogging, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_eager, async_tree_eager_cpu_io_mixed, async_tree_eager_cpu_io_mixed_tg, async_tree_eager_io, async_tree_eager_io_tg, async_tree_eager_memoization, async_tree_eager_memoization_tg, async_tree_eager_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg, bpe_tokeniser
 - [📄table](bm-20240622-darwin-arm64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-3.10.4.md)
@@ -238,7 +238,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.01x slower (HPT: reliability of 99.81%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.01x slower (HPT: reliability of 99.84%, 1.00x slower at 99th %ile)
 - Memory usage: 1.21x
 - missing benchmarks: aiohttp, chameleon, dulwich_log, flaskblogging, gunicorn, mypy2
 - [📄table](bm-20240622-darwin-arm64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-3.13.0b2.md)

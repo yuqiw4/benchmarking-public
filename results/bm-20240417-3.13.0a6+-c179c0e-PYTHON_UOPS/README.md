@@ -17,8 +17,8 @@
 
 ### vs. 3.10.4
 
-- Geometric mean: 1.09x faster (HPT: reliability of 96.84%, 1.00x faster at 99th %ile)
-- Memory usage: 1.15x
+- Geometric mean: 1.09x faster (HPT: reliability of 96.88%, 1.00x faster at 99th %ile)
+- Memory usage: 1.16x
 - missing benchmarks: flaskblogging, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_eager, async_tree_eager_cpu_io_mixed, async_tree_eager_cpu_io_mixed_tg, async_tree_eager_io, async_tree_eager_io_tg, async_tree_eager_memoization, async_tree_eager_memoization_tg, async_tree_eager_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
 - [📄table](bm-20240417-darwin-arm64-python-main-3.13.0a6%2B-c179c0e-vs-3.10.4.md)

@@ -27,7 +27,7 @@
 ### vs. 3.12.0
 
 - Geometric mean: 1.04x faster (HPT: reliability of 99.97%, 1.00x faster at 99th %ile)
-- Memory usage: 0.97x
+- Memory usage: 0.96x
 - missing benchmarks: sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: djangocms, genshi_text, genshi_xml, html5lib, pylint, thrift
 - [📄table](bm-20240417-linux-x86_64-faster%252dcpython-faster_alloc_free-3.13.0a6%2B-e20fffa-vs-3.12.0.md)
@@ -35,7 +35,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.01x faster (HPT: reliability of 94.19%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.01x faster (HPT: reliability of 96.77%, 1.00x faster at 99th %ile)
 - Memory usage: 0.98x
 - missing benchmarks: bpe_tokeniser, flaskblogging
 - [📄table](bm-20240417-linux-x86_64-faster%252dcpython-faster_alloc_free-3.13.0a6%2B-e20fffa-vs-3.13.0b2.md)
@@ -43,7 +43,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.00x faster (HPT: reliability of 84.99%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.00x faster (HPT: reliability of 89.47%, 1.00x faster at 99th %ile)
 - Memory usage: 1.00x
 - [🧠memory plot](bm-20240417-linux-x86_64-faster%252dcpython-faster_alloc_free-3.13.0a6%2B-e20fffa-vs-base-mem.svg)
 - [📄table](bm-20240417-linux-x86_64-faster%252dcpython-faster_alloc_free-3.13.0a6%2B-e20fffa-vs-base.md)

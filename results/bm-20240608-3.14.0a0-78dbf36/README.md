@@ -27,7 +27,7 @@
 ### vs. 3.12.0
 
 - Geometric mean: 1.04x faster (HPT: reliability of 100.00%, 1.01x faster at 99th %ile)
-- Memory usage: 0.98x
+- Memory usage: 0.97x
 - missing benchmarks: aiohttp, chameleon, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: genshi_text, genshi_xml, html5lib, pylint, thrift
 - [📄table](bm-20240608-linux-x86_64-Fidget%252dSpinner-stackref_all-3.14.0a0-78dbf36-vs-3.12.0.md)

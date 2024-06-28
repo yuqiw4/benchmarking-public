@@ -27,7 +27,7 @@
 ### vs. 3.12.0
 
 - Geometric mean: 1.07x faster (HPT: reliability of 100.00%, 1.02x faster at 99th %ile)
-- Memory usage: 0.98x
+- Memory usage: 0.97x
 - missing benchmarks: aiohttp, chameleon, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: bpe_tokeniser, genshi_text, genshi_xml, html5lib, pylint, thrift
 - [📄table](bm-20240625-linux-x86_64-nohlson-enable_no_strict_ali-3.14.0a0-9134938-vs-3.12.0.md)

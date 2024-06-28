@@ -18,7 +18,7 @@
 ### vs. 3.10.4
 
 - Geometric mean: 1.24x slower (HPT: reliability of 100.00%, 1.15x slower at 99th %ile)
-- Memory usage: 1.31x
+- Memory usage: 1.32x
 - missing benchmarks: aiohttp, chameleon, dask, flaskblogging, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg, bpe_tokeniser
 - [📄table](bm-20240622-arminc-aarch64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-3.10.4.md)
@@ -26,8 +26,8 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.56x slower (HPT: reliability of 100.00%, 1.33x slower at 99th %ile)
-- Memory usage: 1.07x
+- Geometric mean: 1.56x slower (HPT: reliability of 100.00%, 1.34x slower at 99th %ile)
+- Memory usage: 1.06x
 - missing benchmarks: aiohttp, chameleon, dask, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative
 - new benchmarks: bpe_tokeniser
 - [📄table](bm-20240622-arminc-aarch64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-3.12.0.md)
@@ -36,7 +36,7 @@
 ### vs. 3.13.0b2
 
 - Geometric mean: 1.57x slower (HPT: reliability of 100.00%, 1.35x slower at 99th %ile)
-- Memory usage: 1.16x
+- Memory usage: 1.15x
 - missing benchmarks: aiohttp, chameleon, dask, flaskblogging, gunicorn, mypy2
 - [📄table](bm-20240622-arminc-aarch64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-3.13.0b2.md)
 - [📈time plot](bm-20240622-arminc-aarch64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-3.13.0b2.svg)
@@ -44,7 +44,7 @@
 ### vs. base
 
 - Geometric mean: 1.60x slower (HPT: reliability of 100.00%, 1.38x slower at 99th %ile)
-- Memory usage: 1.16x
+- Memory usage: 1.15x
 - missing benchmarks: 🔴 dask
 - [🧠memory plot](bm-20240622-arminc-aarch64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-base-mem.svg)
 - [📄table](bm-20240622-arminc-aarch64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-base.md)
@@ -68,8 +68,8 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.48x slower (HPT: reliability of 100.00%, 1.28x slower at 99th %ile)
-- Memory usage: 1.13x
+- Geometric mean: 1.48x slower (HPT: reliability of 100.00%, 1.29x slower at 99th %ile)
+- Memory usage: 1.12x
 - missing benchmarks: aiohttp, chameleon, dask, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: bpe_tokeniser, genshi_text, genshi_xml, html5lib, pylint, thrift
 - [📄table](bm-20240622-linux-x86_64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-3.12.0.md)
@@ -85,7 +85,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.63x slower (HPT: reliability of 100.00%, 1.39x slower at 99th %ile)
+- Geometric mean: 1.62x slower (HPT: reliability of 100.00%, 1.39x slower at 99th %ile)
 - Memory usage: 1.14x
 - missing benchmarks: 🔴 dask
 - [🧠memory plot](bm-20240622-linux-x86_64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-base-mem.svg)
@@ -101,7 +101,7 @@
 
 ### vs. 3.10.4
 
-- Geometric mean: 1.16x slower (HPT: reliability of 99.99%, 1.05x slower at 99th %ile)
+- Geometric mean: 1.16x slower (HPT: reliability of 100.00%, 1.06x slower at 99th %ile)
 - Memory usage: 1.30x
 - missing benchmarks: aiohttp, chameleon, dask, flaskblogging, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg, bpe_tokeniser
@@ -111,7 +111,7 @@
 ### vs. 3.12.0
 
 - Geometric mean: 1.45x slower (HPT: reliability of 100.00%, 1.26x slower at 99th %ile)
-- Memory usage: 1.08x
+- Memory usage: 1.07x
 - missing benchmarks: aiohttp, chameleon, dask, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: bpe_tokeniser, genshi_text, genshi_xml, html5lib, pylint, thrift
 - [📄table](bm-20240622-pythonperf2-x86_64-python-4717aaa1a72d1964f153-3.14.0a0-4717aaa-vs-3.12.0.md)
@@ -143,7 +143,7 @@
 
 ### vs. 3.10.4
 
-- Geometric mean: 1.13x slower (HPT: reliability of 99.99%, 1.03x slower at 99th %ile)
+- Geometric mean: 1.13x slower (HPT: reliability of 100.00%, 1.03x slower at 99th %ile)
 - Memory usage: 1.29x
 - missing benchmarks: aiohttp, chameleon, dask, dulwich_log, flaskblogging, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_eager, async_tree_eager_cpu_io_mixed, async_tree_eager_cpu_io_mixed_tg, async_tree_eager_io, async_tree_eager_io_tg, async_tree_eager_memoization, async_tree_eager_memoization_tg, async_tree_eager_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg, bpe_tokeniser

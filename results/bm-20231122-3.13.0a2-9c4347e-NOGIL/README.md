@@ -43,7 +43,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.21x slower (HPT: reliability of 100.00%, 1.08x slower at 99th %ile)
+- Geometric mean: 1.21x slower (HPT: reliability of 100.00%, 1.07x slower at 99th %ile)
 - Memory usage: 0.61x
 - missing benchmarks: 🔴 djangocms
 - [🧠memory plot](bm-20231122-linux-x86_64-python-v3.13.0a2-3.13.0a2-9c4347e-vs-base-mem.svg)

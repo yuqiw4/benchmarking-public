@@ -43,7 +43,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.00x slower (HPT: reliability of 87.80%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.00x slower (HPT: reliability of 90.27%, 1.00x slower at 99th %ile)
 - Memory usage: 1.00x
 - [🧠memory plot](bm-20240604-linux-x86_64-Fidget%252dSpinner-stackref_all-3.14.0a0-6a6bae2-vs-base-mem.svg)
 - [📄table](bm-20240604-linux-x86_64-Fidget%252dSpinner-stackref_all-3.14.0a0-6a6bae2-vs-base.md)

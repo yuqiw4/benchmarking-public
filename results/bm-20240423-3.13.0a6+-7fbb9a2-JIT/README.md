@@ -26,7 +26,7 @@
 
 ### vs. 3.10.4
 
-- Geometric mean: 1.35x faster (HPT: reliability of 100.00%, 1.24x faster at 99th %ile)
+- Geometric mean: 1.35x faster (HPT: reliability of 100.00%, 1.23x faster at 99th %ile)
 - Memory usage: 1.21x
 - missing benchmarks: flaskblogging, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
@@ -35,8 +35,8 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.05x faster (HPT: reliability of 99.38%, 1.00x faster at 99th %ile)
-- Memory usage: 1.07x
+- Geometric mean: 1.05x faster (HPT: reliability of 99.10%, 1.00x faster at 99th %ile)
+- Memory usage: 1.06x
 - missing benchmarks: sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: djangocms, genshi_text, genshi_xml, html5lib, pylint, thrift
 - [📄table](bm-20240423-linux-x86_64-brandtbucher-justin_ghccc_cache_2-3.13.0a6%2B-7fbb9a2-vs-3.12.0.md)
@@ -44,7 +44,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.02x faster (HPT: reliability of 52.49%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.02x faster (HPT: reliability of 58.91%, 1.00x slower at 99th %ile)
 - Memory usage: 1.08x
 - missing benchmarks: bpe_tokeniser, flaskblogging
 - [📄table](bm-20240423-linux-x86_64-brandtbucher-justin_ghccc_cache_2-3.13.0a6%2B-7fbb9a2-vs-3.13.0b2.md)

@@ -23,7 +23,7 @@
 ### vs. 3.10.4
 
 - Geometric mean: 1.34x faster (HPT: reliability of 100.00%, 1.26x faster at 99th %ile)
-- Memory usage: 1.08x
+- Memory usage: 1.09x
 - missing benchmarks: flaskblogging, sqlalchemy_declarative, sqlalchemy_imperative
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
 - Geometric mean: 1.35x faster (HPT: reliability of 100.00%, 1.27x faster at 99th %ile)
@@ -35,10 +35,10 @@
 ### vs. 3.12.0
 
 - Geometric mean: 1.04x faster (HPT: reliability of 99.97%, 1.01x faster at 99th %ile)
-- Memory usage: 0.96x
+- Memory usage: 0.95x
 - missing benchmarks: sqlalchemy_declarative, sqlalchemy_imperative
 - new benchmarks: djangocms, genshi_text, genshi_xml, html5lib, pylint, thrift
-- Geometric mean: 1.05x faster (HPT: reliability of 100.00%, 1.02x faster at 99th %ile)
+- Geometric mean: 1.05x faster (HPT: reliability of 100.00%, 1.01x faster at 99th %ile)
 - [📄table](bm-20240327-linux-x86_64-brandtbucher-main-3.13.0a5%2B-74c8568-vs-3.12.0.md)
 - [📈time plot](bm-20240327-linux-x86_64-brandtbucher-main-3.13.0a5%2B-74c8568-vs-3.12.0.svg)
 - [📄table](bm-20240327-linux-x86_64-python-74c8568d07719529b874-3.13.0a5%2B-74c8568-vs-3.12.0.md)
@@ -46,7 +46,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.01x faster (HPT: reliability of 99.09%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.01x faster (HPT: reliability of 99.30%, 1.00x faster at 99th %ile)
 - Memory usage: 0.97x
 - missing benchmarks: bpe_tokeniser, flaskblogging
 - new benchmarks: unpack_sequence
@@ -60,7 +60,7 @@
 
 - Geometric mean: 1.01x slower (HPT: reliability of 100.00%, 1.00x slower at 99th %ile)
 - Memory usage: 1.00x
-- Geometric mean: 1.00x slower (HPT: reliability of 56.95%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.00x slower (HPT: reliability of 54.98%, 1.00x faster at 99th %ile)
 - [🧠memory plot](bm-20240327-linux-x86_64-brandtbucher-main-3.13.0a5%2B-74c8568-vs-base-mem.svg)
 - [📄table](bm-20240327-linux-x86_64-brandtbucher-main-3.13.0a5%2B-74c8568-vs-base.md)
 - [📈time plot](bm-20240327-linux-x86_64-brandtbucher-main-3.13.0a5%2B-74c8568-vs-base.svg)

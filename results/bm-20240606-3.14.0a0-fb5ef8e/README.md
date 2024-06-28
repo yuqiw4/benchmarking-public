@@ -26,7 +26,7 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.03x faster (HPT: reliability of 99.83%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.03x faster (HPT: reliability of 99.85%, 1.00x faster at 99th %ile)
 - Memory usage: 0.97x
 - missing benchmarks: aiohttp, chameleon, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: genshi_text, genshi_xml, html5lib, pylint, thrift
@@ -35,7 +35,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.00x faster (HPT: reliability of 76.55%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.00x faster (HPT: reliability of 73.28%, 1.00x faster at 99th %ile)
 - Memory usage: 1.00x
 - missing benchmarks: aiohttp, bpe_tokeniser, chameleon, djangocms, flaskblogging, gunicorn, mypy2
 - [📄table](bm-20240606-linux-x86_64-faster%252dcpython-spill_stack_pointer_-3.14.0a0-fb5ef8e-vs-3.13.0b2.md)
@@ -43,8 +43,8 @@
 
 ### vs. base
 
-- Geometric mean: 1.00x slower (HPT: reliability of 99.91%, 1.00x slower at 99th %ile)
-- Memory usage: 1.02x
+- Geometric mean: 1.00x slower (HPT: reliability of 99.88%, 1.00x slower at 99th %ile)
+- Memory usage: 1.01x
 - [🧠memory plot](bm-20240606-linux-x86_64-faster%252dcpython-spill_stack_pointer_-3.14.0a0-fb5ef8e-vs-base-mem.svg)
 - [📄table](bm-20240606-linux-x86_64-faster%252dcpython-spill_stack_pointer_-3.14.0a0-fb5ef8e-vs-base.md)
 - [📈time plot](bm-20240606-linux-x86_64-faster%252dcpython-spill_stack_pointer_-3.14.0a0-fb5ef8e-vs-base.svg)

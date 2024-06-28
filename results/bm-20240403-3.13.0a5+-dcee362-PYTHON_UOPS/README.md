@@ -26,7 +26,7 @@
 
 ### vs. 3.10.4
 
-- Geometric mean: 1.17x faster (HPT: reliability of 100.00%, 1.08x faster at 99th %ile)
+- Geometric mean: 1.17x faster (HPT: reliability of 100.00%, 1.07x faster at 99th %ile)
 - Memory usage: 1.11x
 - missing benchmarks: django_template, flaskblogging, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
@@ -52,7 +52,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.02x faster (HPT: reliability of 99.96%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.02x faster (HPT: reliability of 99.94%, 1.00x faster at 99th %ile)
 - Memory usage: 1.00x
 - [🧠memory plot](bm-20240403-pythonperf2-x86_64-gvanrossum-exp_backoff-3.13.0a5%2B-dcee362-vs-base-mem.svg)
 - [📄table](bm-20240403-pythonperf2-x86_64-gvanrossum-exp_backoff-3.13.0a5%2B-dcee362-vs-base.md)

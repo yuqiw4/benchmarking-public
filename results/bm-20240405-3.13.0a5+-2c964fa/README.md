@@ -44,7 +44,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.02x faster (HPT: reliability of 99.99%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.02x faster (HPT: reliability of 100.00%, 1.00x faster at 99th %ile)
 - Memory usage: 0.98x
 - missing benchmarks: bpe_tokeniser, django_template, djangocms, flaskblogging
 - [📄table](bm-20240405-linux-x86_64-faster%252dcpython-specialize_binary_op-3.13.0a5%2B-2c964fa-vs-3.13.0b2.md)
@@ -52,7 +52,7 @@
 
 ### vs. base
 
-- Geometric mean: 1.00x slower (HPT: reliability of 98.99%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.00x slower (HPT: reliability of 99.00%, 1.00x slower at 99th %ile)
 - Memory usage: 1.00x
 - [🧠memory plot](bm-20240405-linux-x86_64-faster%252dcpython-specialize_binary_op-3.13.0a5%2B-2c964fa-vs-base-mem.svg)
 - [📄table](bm-20240405-linux-x86_64-faster%252dcpython-specialize_binary_op-3.13.0a5%2B-2c964fa-vs-base.md)
@@ -67,7 +67,7 @@
 
 ### vs. 3.10.4
 
-- Geometric mean: 1.30x faster (HPT: reliability of 100.00%, 1.23x faster at 99th %ile)
+- Geometric mean: 1.30x faster (HPT: reliability of 100.00%, 1.22x faster at 99th %ile)
 - Memory usage: 1.10x
 - missing benchmarks: django_template, flaskblogging, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
@@ -76,7 +76,7 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.00x faster (HPT: reliability of 71.44%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.00x faster (HPT: reliability of 65.60%, 1.00x faster at 99th %ile)
 - Memory usage: 0.91x
 - missing benchmarks: django_template, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: genshi_text, genshi_xml, html5lib, pylint, thrift
@@ -85,7 +85,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.01x faster (HPT: reliability of 54.97%, 1.00x slower at 99th %ile)
+- Geometric mean: 1.01x faster (HPT: reliability of 52.50%, 1.00x slower at 99th %ile)
 - Memory usage: 0.98x
 - missing benchmarks: bpe_tokeniser, django_template, flaskblogging
 - [📄table](bm-20240405-pythonperf2-x86_64-faster%252dcpython-specialize_binary_op-3.13.0a5%2B-2c964fa-vs-3.13.0b2.md)
@@ -93,8 +93,8 @@
 
 ### vs. base
 
-- Geometric mean: 1.00x slower (HPT: reliability of 92.77%, 1.00x faster at 99th %ile)
-- Memory usage: 1.00x
+- Geometric mean: 1.00x slower (HPT: reliability of 95.31%, 1.00x faster at 99th %ile)
+- Memory usage: 1.01x
 - [🧠memory plot](bm-20240405-pythonperf2-x86_64-faster%252dcpython-specialize_binary_op-3.13.0a5%2B-2c964fa-vs-base-mem.svg)
 - [📄table](bm-20240405-pythonperf2-x86_64-faster%252dcpython-specialize_binary_op-3.13.0a5%2B-2c964fa-vs-base.md)
 - [📈time plot](bm-20240405-pythonperf2-x86_64-faster%252dcpython-specialize_binary_op-3.13.0a5%2B-2c964fa-vs-base.svg)

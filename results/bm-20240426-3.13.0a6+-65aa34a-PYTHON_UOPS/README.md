@@ -27,7 +27,7 @@
 ### vs. 3.10.4
 
 - Geometric mean: 1.18x faster (HPT: reliability of 100.00%, 1.08x faster at 99th %ile)
-- Memory usage: 1.10x
+- Memory usage: 1.11x
 - missing benchmarks: docutils, flaskblogging, mypy2, pylint, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
 - [📄table](bm-20240426-linux-x86_64-faster%252dcpython-tier_2_call-3.13.0a6%2B-65aa34a-vs-3.10.4.md)
@@ -44,7 +44,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.12x slower (HPT: reliability of 100.00%, 1.07x slower at 99th %ile)
+- Geometric mean: 1.12x slower (HPT: reliability of 100.00%, 1.06x slower at 99th %ile)
 - Memory usage: 0.99x
 - missing benchmarks: bpe_tokeniser, docutils, flaskblogging, mypy2, pylint
 - [📄table](bm-20240426-linux-x86_64-faster%252dcpython-tier_2_call-3.13.0a6%2B-65aa34a-vs-3.13.0b2.md)

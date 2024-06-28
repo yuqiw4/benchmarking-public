@@ -26,8 +26,8 @@
 
 ### vs. 3.10.4
 
-- Geometric mean: 1.38x faster (HPT: reliability of 100.00%, 1.26x faster at 99th %ile)
-- Memory usage: 1.22x
+- Geometric mean: 1.38x faster (HPT: reliability of 100.00%, 1.25x faster at 99th %ile)
+- Memory usage: 1.23x
 - missing benchmarks: aiohttp, chameleon, djangocms, flaskblogging, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg, bpe_tokeniser
 - [📄table](bm-20240620-linux-x86_64-brandtbucher-warmer_side_exits-3.14.0a0-080259b-vs-3.10.4.md)
@@ -35,8 +35,8 @@
 
 ### vs. 3.12.0
 
-- Geometric mean: 1.07x faster (HPT: reliability of 99.85%, 1.00x faster at 99th %ile)
-- Memory usage: 1.09x
+- Geometric mean: 1.07x faster (HPT: reliability of 99.84%, 1.00x faster at 99th %ile)
+- Memory usage: 1.08x
 - missing benchmarks: aiohttp, chameleon, gunicorn, mypy2, sqlalchemy_declarative, sqlalchemy_imperative, unpack_sequence
 - new benchmarks: bpe_tokeniser, genshi_text, genshi_xml, html5lib, pylint, thrift
 - [📄table](bm-20240620-linux-x86_64-brandtbucher-warmer_side_exits-3.14.0a0-080259b-vs-3.12.0.md)
@@ -44,7 +44,7 @@
 
 ### vs. 3.13.0b2
 
-- Geometric mean: 1.03x faster (HPT: reliability of 99.80%, 1.00x faster at 99th %ile)
+- Geometric mean: 1.03x faster (HPT: reliability of 99.83%, 1.00x faster at 99th %ile)
 - Memory usage: 1.10x
 - missing benchmarks: aiohttp, chameleon, djangocms, flaskblogging, gunicorn, mypy2
 - [📄table](bm-20240620-linux-x86_64-brandtbucher-warmer_side_exits-3.14.0a0-080259b-vs-3.13.0b2.md)
@@ -52,8 +52,8 @@
 
 ### vs. base
 
-- Geometric mean: 1.00x slower (HPT: reliability of 93.15%, 1.00x slower at 99th %ile)
-- Memory usage: 1.02x
+- Geometric mean: 1.02x faster (HPT: reliability of 100.00%, 1.01x faster at 99th %ile)
+- Memory usage: 1.01x
 - [🧠memory plot](bm-20240620-linux-x86_64-brandtbucher-warmer_side_exits-3.14.0a0-080259b-vs-base-mem.svg)
 - [📄table](bm-20240620-linux-x86_64-brandtbucher-warmer_side_exits-3.14.0a0-080259b-vs-base.md)
 - [📈time plot](bm-20240620-linux-x86_64-brandtbucher-warmer_side_exits-3.14.0a0-080259b-vs-base.svg)
