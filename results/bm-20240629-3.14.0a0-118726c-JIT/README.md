@@ -46,3 +46,11 @@
 - [📄table](bm-20240629-linux-x86_64-Fidget%252dSpinner-optimizer_off-3.14.0a0-118726c-vs-3.13.0b2.md)
 - [📈time plot](bm-20240629-linux-x86_64-Fidget%252dSpinner-optimizer_off-3.14.0a0-118726c-vs-3.13.0b2.svg)
 
+### vs. base
+
+- Geometric mean: 1.01x slower (HPT: reliability of 99.22%, 1.00x slower at 99th %ile)
+- Memory usage: 1.01x
+- [🧠memory plot](bm-20240629-linux-x86_64-Fidget%252dSpinner-optimizer_off-3.14.0a0-118726c-vs-base-mem.svg)
+- [📄table](bm-20240629-linux-x86_64-Fidget%252dSpinner-optimizer_off-3.14.0a0-118726c-vs-base.md)
+- [📈time plot](bm-20240629-linux-x86_64-Fidget%252dSpinner-optimizer_off-3.14.0a0-118726c-vs-base.svg)
+
