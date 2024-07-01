@@ -1313,12 +1313,13 @@
 </g>
 </g>
 <g stroke="#9467bd" stroke-opacity=".9">
-<path d="m98.7 898h81.8 80.8 327l47.5-136h34.5" clip-path="url(#s)" fill="none" stroke-dasharray="5.55,2.4" stroke-width="1.5"/>
+<path d="m98.7 898h81.8 80.8 327l47.4-136h0.0778 34.5" clip-path="url(#s)" fill="none" stroke-dasharray="5.55,2.4" stroke-width="1.5"/>
 <g clip-path="url(#s)" fill="#9467bd" fill-opacity=".9">
 <use x="98.706304" y="897.502012" xlink:href="#h"/>
 <use x="180.461666" y="897.502012" xlink:href="#h"/>
 <use x="261.235253" y="897.502012" xlink:href="#h"/>
 <use x="588.514391" y="897.502012" xlink:href="#h"/>
+<use x="635.921184" y="761.929789" xlink:href="#h"/>
 <use x="635.998939" y="761.929789" xlink:href="#h"/>
 <use x="670.489312" y="761.929789" xlink:href="#h"/>
 </g>
