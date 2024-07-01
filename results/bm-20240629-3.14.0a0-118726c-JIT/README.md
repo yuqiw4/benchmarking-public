@@ -13,6 +13,10 @@
 - [pystats raw](bm-20240629-azure-x86_64-Fidget%252dSpinner-optimizer_off-3.14.0a0-118726c-pystats.json)
 - [pystats table](bm-20240629-azure-x86_64-Fidget%252dSpinner-optimizer_off-3.14.0a0-118726c-pystats.md)
 
+### vs. base
+
+- [pystats diff](bm-20240629-azure-x86_64-Fidget%252dSpinner-optimizer_off-3.14.0a0-118726c-pystats-vs-base.md)
+
 ## linux x86_64 (linux)
 
 - [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9747898420)
