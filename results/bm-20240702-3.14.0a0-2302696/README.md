@@ -41,6 +41,14 @@
 - [📄table](bm-20240702-linux-x86_64-Fidget%252dSpinner-macro_ify-3.14.0a0-2302696-vs-3.13.0b2.md)
 - [📈time plot](bm-20240702-linux-x86_64-Fidget%252dSpinner-macro_ify-3.14.0a0-2302696-vs-3.13.0b2.svg)
 
+### vs. base
+
+- Geometric mean: 1.00x faster (HPT: reliability of 99.82%, 1.00x faster at 99th %ile)
+- Memory usage: 1.01x
+- [🧠memory plot](bm-20240702-linux-x86_64-Fidget%252dSpinner-macro_ify-3.14.0a0-2302696-vs-base-mem.svg)
+- [📄table](bm-20240702-linux-x86_64-Fidget%252dSpinner-macro_ify-3.14.0a0-2302696-vs-base.md)
+- [📈time plot](bm-20240702-linux-x86_64-Fidget%252dSpinner-macro_ify-3.14.0a0-2302696-vs-base.svg)
+
 ## windows amd64 (pythonperf1)
 
 - [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9764247137)
