@@ -74,3 +74,36 @@
 - [📄table](bm-20240702-pythonperf1-amd64-python-6343486eb60ac5a9e154-3.14.0a0-6343486-vs-3.13.0b2.md)
 - [📈time plot](bm-20240702-pythonperf1-amd64-python-6343486eb60ac5a9e154-3.14.0a0-6343486-vs-3.13.0b2.svg)
 
+## windows x86 (pythonperf1_win32)
+
+- [GitHub Action run](https://github.com/faster-cpython/benchmarking/actions/runs/9764250031)
+- cpu model: missing
+- platform: Windows-11-10.0.22631-SP0
+- [raw results](bm-20240702-pythonperf1_win32-x86-python-6343486eb60ac5a9e154-3.14.0a0-6343486.json)
+
+### vs. 3.10.4
+
+- Geometric mean: 1.06x faster (HPT: reliability of 90.59%, 1.00x faster at 99th %ile)
+- Memory usage: unknown
+- missing benchmarks: aiohttp, chameleon, dask, dulwich_log, flaskblogging, mypy2, pickle, pickle_dict, pickle_list, sqlalchemy_declarative, sqlalchemy_imperative, sqlite_synth, unpack_sequence, unpickle, unpickle_list
+- new benchmarks: async_tree_cpu_io_mixed_tg, async_tree_io_tg, async_tree_memoization_tg, async_tree_none_tg
+- [📄table](bm-20240702-pythonperf1_win32-x86-python-6343486eb60ac5a9e154-3.14.0a0-6343486-vs-3.10.4.md)
+- [📈time plot](bm-20240702-pythonperf1_win32-x86-python-6343486eb60ac5a9e154-3.14.0a0-6343486-vs-3.10.4.svg)
+
+### vs. 3.12.0
+
+- Geometric mean: 1.07x faster (HPT: reliability of 100.00%, 1.04x faster at 99th %ile)
+- Memory usage: unknown
+- missing benchmarks: aiohttp, chameleon, dask, dulwich_log, mypy2, pickle, pickle_dict, pickle_list, sqlalchemy_declarative, sqlalchemy_imperative, sqlite_synth, unpack_sequence, unpickle, unpickle_list
+- new benchmarks: genshi_text, genshi_xml, html5lib, pylint, thrift
+- [📄table](bm-20240702-pythonperf1_win32-x86-python-6343486eb60ac5a9e154-3.14.0a0-6343486-vs-3.12.0.md)
+- [📈time plot](bm-20240702-pythonperf1_win32-x86-python-6343486eb60ac5a9e154-3.14.0a0-6343486-vs-3.12.0.svg)
+
+### vs. 3.13.0b2
+
+- Geometric mean: 1.09x slower (HPT: reliability of 100.00%, 1.08x slower at 99th %ile)
+- Memory usage: unknown
+- missing benchmarks: chameleon, flaskblogging, pickle, pickle_dict, pickle_list, sqlite_synth, unpickle, unpickle_list
+- [📄table](bm-20240702-pythonperf1_win32-x86-python-6343486eb60ac5a9e154-3.14.0a0-6343486-vs-3.13.0b2.md)
+- [📈time plot](bm-20240702-pythonperf1_win32-x86-python-6343486eb60ac5a9e154-3.14.0a0-6343486-vs-3.13.0b2.svg)
+

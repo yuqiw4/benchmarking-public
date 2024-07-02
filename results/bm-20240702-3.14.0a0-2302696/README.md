@@ -122,3 +122,10 @@
 - [📄table](bm-20240702-pythonperf1_win32-x86-Fidget%252dSpinner-macro_ify-3.14.0a0-2302696-vs-3.13.0b2.md)
 - [📈time plot](bm-20240702-pythonperf1_win32-x86-Fidget%252dSpinner-macro_ify-3.14.0a0-2302696-vs-3.13.0b2.svg)
 
+### vs. base
+
+- Geometric mean: 1.07x faster (HPT: reliability of 100.00%, 1.05x faster at 99th %ile)
+- Memory usage: unknown
+- [📄table](bm-20240702-pythonperf1_win32-x86-Fidget%252dSpinner-macro_ify-3.14.0a0-2302696-vs-base.md)
+- [📈time plot](bm-20240702-pythonperf1_win32-x86-Fidget%252dSpinner-macro_ify-3.14.0a0-2302696-vs-base.svg)
+
