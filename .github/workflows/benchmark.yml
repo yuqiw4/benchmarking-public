@@ -22,11 +22,6 @@ on:
         type: choice
         options:
         - linux-x86_64-linux
-        - darwin-arm64-darwin
-        - windows-x86_64-pythonperf1
-        - windows-x86-pythonperf1_win32
-        - linux-x86_64-pythonperf2
-        - linux-aarch64-arminc
         - all
       benchmarks:
         description: Benchmarks to run (comma-separated; empty runs all benchmarks)
